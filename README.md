@@ -40,3 +40,6 @@ $\lambda_{most-likely} = \frac{1}{N_{meas}} \sum_{i = 1}^{N_{meas}} X_{i}$,
 
 showing that our parameter is most likely to be the mean of all of the measurements in an experiment, which can easily be seen as the peak of the distribution in the Figure **PoissonGraphs.png**.
  
+Numerical Parameter Estimation for each experiments is done using the function, scipy.optimize.minimize_scalar,  
+
+and is then averaged over many experiments to calculate the average value of $\lambda$ and its uncertainty, $\sigma_{\lambda}$. 
