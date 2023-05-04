@@ -38,5 +38,5 @@ Solving for $\lambda$ gives,
 
 $\lambda_{most-likely} = \frac{1}{N_{meas}} \sum_{i = 1}^{N_{meas}} X_{i}$,
 
-showing that our parameter is most likely to be the mean of all of the measurements in an experiment.
+showing that our parameter is most likely to be the mean of all of the measurements in an experiment, which can easily be seen as the peak of the distribution in the Figure **PoissonGraphs.png**.
  
