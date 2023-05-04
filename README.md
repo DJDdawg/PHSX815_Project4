@@ -25,3 +25,7 @@ Various graphs for the Poisson Distribution are shown in **xxx.png**.
 The likelihood for the Poisson Distribution is easily derived with Bayes Theorem.
 
 $P(\lambda | X) \approx \prod_{i = 1}^{N_{meas}} P(X_{i} | \lambda) = \prod_{i = 1}^{N_{meas}} \frac{\lambda^{X_{i}} e^{- \lambda}}{X_{i}!}$
+
+Taking the logarithm allows us to separate the products into summations,
+
+$ln(P(\lambda | X)) = \prod_{i = 1}^{N_{meas}} ln(\frac{\lambda^{X_{i}} e^{- \lambda}}{X_{i}!})$
