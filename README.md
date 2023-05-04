@@ -28,4 +28,4 @@ $P(\lambda | X) \approx \prod_{i = 1}^{N_{meas}} P(X_{i} | \lambda) = \prod_{i =
 
 Taking the logarithm allows us to separate the products into summations,
 
-$ln(P(\lambda | X)) =  ln(\prod_{i = 1}^{N_{meas}} \frac{\lambda^{X_{i}} e^{- \lambda}}{X_{i}!})$
+$ln(P(\lambda | X)) =  ln(\prod_{i = 1}^{N_{meas}} \frac{\lambda^{X_{i}} e^{- \lambda}}{X_{i}!}) = -N_{meas} \lambda + ln(\lambda) \sum_{i = 1}^{N_{meas}} X_{i} - \sum_{i = 1}^{N_{meas}} X_{i}!$
