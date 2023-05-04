@@ -18,9 +18,9 @@ Where 'Nmeas' is the number of measurements per experiment, 'Nexp' is the total 
 
 One should note that 'lambda' has to be a positive, real number and that the Poisson Distribution will only return whole numbers for X. 
 
-Various graphs for the Poisson Distribution are shown in **xxx.png**.
+Various graphs for the Poisson Distribution are shown in **PoissonGraphs.png**.
 
-![GaussianGraph1.png](https://github.com/DJDdawg/PHSX815_Project3/blob/main/GaussianGraph1.png)
+![PoissonGraphs.png](https://github.com/DJDdawg/PHSX815_Project3/blob/main/GaussianGraph1.png)
 
 The likelihood for the Poisson Distribution is easily derived with Bayes Theorem.
 
