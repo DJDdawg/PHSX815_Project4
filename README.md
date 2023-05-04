@@ -43,3 +43,14 @@ showing that our parameter is most likely to be the mean of all of the measureme
 Numerical Parameter Estimation for each experiments is done using the function, scipy.optimize.minimize_scalar,  
 
 and is then averaged over many experiments to calculate the average value of $\lambda$ and its uncertainty, $\sigma_{\lambda}$. 
+
+
+**Shot Noise**
+
+The Poisson Distribution describes how many times you expect an event to occur given an average rate parameter $\lambda$. One example of the application of this phenomenon is that of Shot Noise. 
+
+Shot Noise is a type of noise that occurs in electronic or optical equipment due to the quantized value of the electric charge, or the particle nature of light (the photon). Fundamentally, Shot Noise can be described as fluctuations in a Poisson Distribution. 
+
+In electronics, current is due to the movement of electrons. For a  current of one ampere, the number of electrons that pass through a given part of the wire is approximately $6.25 * 10^{18}$ electrons per second. For currents of this magnitude, the fluctuation in the number of electrons per second is infitesimal. However, for small currents where only a few electrons pass through a part of the wire per second the fluctuation will be quite large. These fluctuations are shot noise.
+
+
