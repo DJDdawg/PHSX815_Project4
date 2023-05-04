@@ -20,7 +20,7 @@ One should note that 'lambda' has to be a positive, real number and that the Poi
 
 Various graphs for the Poisson Distribution are shown in **PoissonGraphs.png**.
 
-![PoissonGraphs.png](https://github.com/DJDdawg/PHSX815_Project3/blob/main/GaussianGraph1.png)
+![PoissonGraphs.png](https://github.com/DJDdawg/PHSX815_Project4/blob/main/PoissonGraphs.png)
 
 The likelihood for the Poisson Distribution is easily derived with Bayes Theorem.
 
