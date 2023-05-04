@@ -28,4 +28,15 @@ $P(\lambda | X) \approx \prod_{i = 1}^{N_{meas}} P(X_{i} | \lambda) = \prod_{i =
 
 Taking the logarithm allows us to separate the products into summations,
 
-$ln(P(\lambda | X)) =  ln(\prod_{i = 1}^{N_{meas}} \frac{\lambda^{X_{i}} e^{- \lambda}}{X_{i}!}) = -N_{meas} \lambda + ln(\lambda) \sum_{i = 1}^{N_{meas}} X_{i} - \sum_{i = 1}^{N_{meas}} X_{i}!$
+$ln(P(\lambda | X)) =  ln(\prod_{i = 1}^{N_{meas}} \frac{\lambda^{X_{i}} e^{- \lambda}}{X_{i}!}) = -N_{meas} \lambda + ln(\lambda) \sum_{i = 1}^{N_{meas}} X_{i} - \sum_{i = 1}^{N_{meas}} X_{i}!$.
+
+Taking a derivative allows us to find the maximum likelihood estimate for our parameter $\lambda$, 
+
+$\frac{d ln(P(\lambda | X))}{d \lambda} = -N + \frac{1}{\lambda} \sum_{i = 1}^{N_{meas}} X_{i} = 0$.
+
+Solving for $\lambda$ gives,
+
+$\lambda_{most-likely} = \frac{1}{N_{meas}} \sum_{i = 1}^{N_{meas}} X_{i}$,
+
+showing that our parameter is most likely to be the mean of all of the measurements in an experiment.
+ 
