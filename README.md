@@ -80,4 +80,4 @@ It also produces the graphs **LogLikelihood.png** where the parameter is numeric
 
 Another graph produced is **MeanDistribution.png** where the parameter is estimated for all experiments and the distrubtion of parameters is graphed in a histogram. 
 
-![MeanDistribution.png]()
+![MeanDistribution.png](https://github.com/DJDdawg/PHSX815_Project4/blob/main/MeanDistribution.png)
