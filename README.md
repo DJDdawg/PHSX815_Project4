@@ -4,6 +4,8 @@ The idea of Project 4 is to tie in the course concepts (parameter estimation or 
 
 My experiment measures the charge of an electron based upon the amount of Shot Noise in an electronic system.
 
+The LaTeX Report can be seen in **PHSX_815_Project_4.pdf**.
+
 **Parameter Estimation**
 
 The Poisson distribution is utilized to generate random data in **Poisson.py**, 
