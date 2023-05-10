@@ -76,7 +76,7 @@ The code is then analyzed in **PoissonAnalysis.py** using the following:
 
 It also produces the graphs **LogLikelihood.png** where the parameter is numerically estimated from a single experiment and compared to the analytical solution.
 
-![LogLikelihood.png]()
+![LogLikelihood.png](https://github.com/DJDdawg/PHSX815_Project4/blob/main/LogLikelihood.png)
 
 Another graph produced is **MeanDistribution.png** where the parameter is estimated for all experiments and the distrubtion of parameters is graphed in a histogram. 
 
